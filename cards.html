@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cards</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="sidebar">
+		<div class="logo">
+			<picture>
+				<!-- <source type="image/svg+xml" srcset="img/logo.svg"> -->
+				<img src="img/logo.png" alt="logo">
+			</picture>
+		</div>
+		<div class="items">
+			<a href="index.html" class="item item-1"></a>
+			<a href="#" class="item item-2"></a>
+			<a href="#search-block" class="item item-3"></a>
+		</div>
+		<div class="in">
+				<a href="#">
+					<picture>
+						<source type="image/svg+xml" srcset="img/in.svg">
+						<img src="img/in.png" alt="menu">
+					</picture>
+				</a>
+			</div>
+	</div>
+
+	<div class="card-product">
+		<div class="photo-block">
+			<div class="rating">
+				<span>495</span>
+				<picture>
+					<source type="image/svg+xml" srcset="img/heart.svg">
+					<img src="img/heart.png" alt="Likes">
+				</picture>
+			</div>
+			<div class="photo-product">
+				<img src="img/card/seat.png" alt="Seat">
+			</div>
+			<div class="card-panel">
+				<div class="zoom">
+					<picture>
+						<source type="image/svg+xml" srcset="img/add.svg">
+						<img src="img/add.png" alt="Add">
+					</picture>
+					<picture>
+						<source type="image/svg+xml" srcset="img/remove.svg">
+						<img src="img/remove.png" alt="Remove">
+					</picture>
+				</div>
+				<div class="search">
+					<picture>
+						<source type="image/svg+xml" srcset="img/map.svg">
+						<img class="map-icon" src="img/map.png" alt="Map">
+					</picture>
+					<picture>
+						<source type="image/svg+xml" srcset="img/search.svg">
+						<img class="search-icon" src="img/search.png" alt="Search">
+					</picture>
+				</div>
+			</div>
+		</div>
+		<div class="card-header">
+			<div class="categories-header">
+				<h2>Products</h2>
+				<span>
+					Living Room
+					<picture>
+						<source type="image/svg+xml" srcset="img/menu/living-room.svg">
+						<img src="img/menu/living-room.png" alt="Living Room">
+					</picture>
+				</span>
+			</div>
+			<div class="offer-text">
+				<h3><span>white seat</span> - office</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Ut fermentum interdum malesuada. Sed ornare posuere lobortis. </p>
+			</div>
+			<div class="product-settings">
+				<div class="cost">
+					<span class="cost-head">cost</span>
+					<strong class="product-price">$65</strong>
+					<span><s>$90</s></span>
+				</div>
+				<div class="quantity">
+					<span class="quantity-head">quantity</span>
+					<input type="number" class="quantity-number" min="1" value="1">
+				</div>
+				<div class="card-btn">
+					<button class="add-btn">
+						add to card
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="recomended">
+				<span class="recomended-head">recomended</span>
+				<div class="recomended-good">
+					<img src="img/products/dark-seat.png" alt="Dark seat">
+					<h4>Dark seat</h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="recomended-good">
+					<img src="img/products/blue-seat.png" alt="Blue seat">
+					<h4>Blue seat</h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+				<div class="recomended-good">
+					<img src="img/products/red-seat.png" alt="Red seat">
+					<h4>Red seat</h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</div>
+	</div>
+
+	<div id="main-menu" class="menu">
+		<a class="hamburger" id="close-menu" href="#close">
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="navigation">
+			<li><a href="#">
+			living room
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/living-room.svg">
+				<img src="img/menu/living-room.png" alt="Living room">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			office
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/office.svg">
+				<img src="img/menu/office.png" alt="Office">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			for kids
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/for-kids.svg">
+				<img src="img/menu/for-kids.png" alt="For Kids">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			kitchen
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/kitchen.svg">
+				<img src="img/menu/kitchen.png" alt="Kitchen">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			accesories
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/accesories.svg">
+				<img src="img/menu/accesories.svg" alt="Accesories">
+			</picture>
+				</a>
+			</li>
+		</ul>
+		<div class="categories-link">
+			<a href="#">show all categories</a>
+			<span class="link-line"></span>
+		</div>
+	</div>
+
+	<a class="hamburger" href="#main-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+
+	<div id="search-block" class="search-block">
+		<form action="#">
+			<input type="text" value="red seat" class="input-search">
+			<a href="#close" class="search-close">&times;</a>
+			<p class="help-text">Type product that you are looking for</p>
+		</form>
+		<div class="search-resoult">
+			<div class="resoult-product">
+				<img src="img/products/red-seat.png" alt="Red seat">
+				<span>red seat</span>
+			</div>
+			<div class="resoult-product">
+				<img src="img/products/dark-seat.png" alt="Dark seat">
+				<span>dark seat</span>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

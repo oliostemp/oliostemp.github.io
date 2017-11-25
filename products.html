@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Products</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="sidebar">
+		<div class="logo">
+			<picture>
+				<!-- <source type="image/svg+xml" srcset="img/logo.svg"> -->
+				<img src="img/logo.png" alt="logo">
+			</picture>
+		</div>
+		<div class="items">
+			<a href="index.html" class="item item-1"></a>
+			<a href="#" class="item item-2"></a>
+			<a href="#search-block" class="item item-3"></a>
+		</div>
+		<div class="in">
+				<a href="#">
+					<picture>
+						<source type="image/svg+xml" srcset="img/in.svg">
+						<img src="img/in.png" alt="menu">
+					</picture>
+				</a>
+			</div>
+	</div>
+
+	<div class="categories">
+		<div class="container">
+			<div class="categories-header">
+				<h2>Products</h2>
+				<span>
+					Living Room
+					<picture>
+						<source type="image/svg+xml" srcset="img/menu/living-room.svg">
+						<img src="img/menu/living-room.png" alt="Living Room">
+					</picture>
+				</span>
+			</div>
+			<div class="products-cards">
+				<a href="cards.html" class="card">
+					<img src="img/products/red-seat.png" alt="Red seat">
+					<span class="mini-card-text">
+						<h3>Red seat</h3>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<span class="card-price">$45</span>
+					</span>
+				</a>
+				<a href="#" class="card">
+					<img src="img/products/table.png" alt=" White table">
+					<span class="mini-card-text">
+						<span class="card-text">
+							<h3>White table</h3>
+							<p>Lorem ipsum dolor sit amet.</p>
+							<span class="card-price">$350</span>
+						</span>
+					</span>
+				</a>
+				<a href="#" class="card">
+					<img src="img/products/blue-seat.png" alt="Blue seat">
+					<span class="mini-card-text">
+						<h3>Blue seat</h3>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<span class="card-price">$35</span>
+					</span>
+				</a>
+				<a href="#" class="card">
+					<img src="img/products/bed.png" alt=" Modern bed">
+					<span class="card-text">
+						<h3>Modern bed</h3>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<span class="card-price">$120</span>
+					</span>
+				</a>
+				<a href="#" class="card">
+					<img src="img/products/dark-seat.png" alt="Dark seat">
+					<span class="mini-card-text">
+						<h3>Dark seat</h3>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<span class="card-price">$50</span>
+					</span>
+				</a>
+			</div>
+			<div class="show-more-link">
+				<a href="#">show more products</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="main-menu" class="menu">
+		<a class="hamburger" id="close-menu" href="#close">
+			<span></span>
+			<span></span>
+		</a>
+		<ul class="navigation">
+			<li><a href="#">
+			living room
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/living-room.svg">
+				<img src="img/menu/living-room.png" alt="Living room">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			office
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/office.svg">
+				<img src="img/menu/office.png" alt="Office">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			for kids
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/for-kids.svg">
+				<img src="img/menu/for-kids.png" alt="For Kids">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			kitchen
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/kitchen.svg">
+				<img src="img/menu/kitchen.png" alt="Kitchen">
+			</picture>
+				</a>
+			</li>
+			<li><a href="#">
+			accesories
+			<picture>
+				<source type="image/svg+xml" srcset="img/menu/accesories.svg">
+				<img src="img/menu/accesories.svg" alt="Accesories">
+			</picture>
+				</a>
+			</li>
+		</ul>
+		<div class="categories-link">
+			<a href="#">show all categories</a>
+			<span class="link-line"></span>
+		</div>
+	</div>
+
+	<a class="hamburger" href="#main-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+
+	<div id="search-block" class="search-block">
+		<form action="#">
+			<input type="text" value="red seat" class="input-search">
+			<a href="#close" class="search-close">&times;</a>
+			<p class="help-text">Type product that you are looking for</p>
+		</form>
+		<div class="search-resoult">
+			<div class="resoult-product">
+				<img src="img/products/red-seat.png" alt="Red seat">
+				<span>red seat</span>
+			</div>
+			<div class="resoult-product">
+				<img src="img/products/dark-seat.png" alt="Dark seat">
+				<span>dark seat</span>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
